@@ -1,0 +1,12 @@
+# Site settings
+title: FabLab München
+email: info@fablab-muenchen.de
+description: "FabLab München Homepage"
+baseurl: ""
+url: "http://www.fablab-muenchen.de"
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]

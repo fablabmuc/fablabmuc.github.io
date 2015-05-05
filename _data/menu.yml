@@ -1,0 +1,44 @@
+- text: Start
+  url: /
+- text: Werkstatt
+  url: /page/2/
+- text: Mitmachen
+  url: /page/9/
+  subitems:
+    - text: Workshops
+      url: /page/3/
+    - text: Freies Arbeiten
+      url: /page/11/
+    - text: Meet &amp; Make
+      url: /page/14/
+    - text: Unterstützen
+      url: /page/13/
+    - text: FAQ
+      url: /page/5/
+- text: Bildung
+  url: /page/6/
+  subitems:
+    - text: Fab Lab Kids
+      url: /page/15/
+    - text: Schulprogramm
+      url: /page/16/
+    - text: Ferienprogramm
+      url: /page/17/
+    - text: Mobiles FabLab
+      url: /page/18/
+- text: Über uns
+  url: /page/10/
+  subitems:
+    - text: Verein
+      url: /page/12/
+    - text: Netzwerk
+      url: /page/19/
+    - text: Förderer
+      url: /page/20/
+    - text: Presse
+      url: /page/4/
+- text: "&#8658;Wiki"
+  url: http://wiki.fablab-muenchen.de/
+  extra_li_attr: style="margin-left:10px;"
+  extra_a_attr: target="_blank"
+      
