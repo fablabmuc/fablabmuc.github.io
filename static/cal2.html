@@ -35,24 +35,24 @@
 			googleCalendarApiKey: 'AIzaSyD1HiwrzPNHQPDAcT8svVJPKteZ2Am6h3M',
 			eventSources: [
 				{
-					googleCalendarId: 'hafhletnpptkst520icpnsd568@group.calendar.google.com',
-					color: 'violet',   
+					googleCalendarId: '8h1uv0lbhncjmcaf5trj5dpnbk@group.calendar.google.com',
+					color: 'green',   
 					textColor: 'white' 
 				},
 				{
-					googleCalendarId: '2jktqma6e5oktet0jaqi3gt4o4@group.calendar.google.com',
-					color: 'red',   
+					googleCalendarId: 'hafhletnpptkst520icpnsd568@group.calendar.google.com',
+					color: 'indigo',   
 					textColor: 'white' 
-				}
+				},
 				
 			],
-			eventClickXX: function(event) { return false; },
+			eventClick: function(event) { return false; },
 			eventRender: 
 				function(event, element) {
 					element.qtip({ 
 						content: {
 							title: event.title,
-							text: event.description + " "
+							text: (event.description == null) ?  " " : event.description + " "
 						},
 						position: {
 							my: 'top center',  // Position my top center...

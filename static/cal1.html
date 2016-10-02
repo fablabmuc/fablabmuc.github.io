@@ -46,13 +46,13 @@
 				}
 				
 			],
-			eventClickXX: function(event) { return false; },
+			eventClick: function(event) { return false; },
 			eventRender: 
 				function(event, element) {
 					element.qtip({ 
 						content: {
 							title: event.title,
-							text: event.description + " "
+							text: (event.description == null) ?  " " : event.description + " "
 						},
 						position: {
 							my: 'top center',  // Position my top center...
