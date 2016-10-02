@@ -31,15 +31,22 @@
 			},			
 			lang: 'de',
 			columnFormat: 'dd',
-			timeFormat: 'hh:mm',
-			googleCalendarApiKey: 'O9vf5DzSTd-Jd8L6sf3FZDsj',
+			timeFormat: 'HH:mm',
+			googleCalendarApiKey: 'AIzaSyD1HiwrzPNHQPDAcT8svVJPKteZ2Am6h3M',
 			eventSources: [
 				{
+					googleCalendarId: '8h1uv0lbhncjmcaf5trj5dpnbk@group.calendar.google.com',
+					color: 'green',   
+					textColor: 'white' 
+				},
+				{
 					googleCalendarId: '2jktqma6e5oktet0jaqi3gt4o4@group.calendar.google.com',
-					color: 'yellow',   // an option!
-					textColor: 'black' // an option!
+					color: 'red',   
+					textColor: 'white' 
 				}
+				
 			],
+			eventClickXX: function(event) { return false; },
 			eventRender: 
 				function(event, element) {
 					element.qtip({ 
@@ -48,8 +55,8 @@
 							text: event.description + " "
 						},
 						position: {
-							my: 'top center',  // Position my top left...
-							at: 'bottom center', // at the bottom right 
+							my: 'top center',  // Position my top center...
+							at: 'bottom center', // at the bottom center 
 							adjust: { x:0, y: -4 }
 						},
 						show: {
