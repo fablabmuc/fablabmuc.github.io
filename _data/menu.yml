@@ -17,15 +17,6 @@
       url: /page/5/
 - text: Bildung
   url: /page/6/
-  subitems:
-    - text: Fab Lab Kids
-      url: /page/15/
-    - text: Schulprogramm
-      url: /page/16/
-    - text: Ferienprogramm
-      url: /page/17/
-    - text: Kindergeburtstag
-      url: /page/18/
 - text: Über uns
   url: /page/10/
   subitems:
