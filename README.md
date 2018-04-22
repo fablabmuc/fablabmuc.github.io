@@ -1,2 +1,2 @@
 # fablabmuc.github.io
-FabLab München Homepage
+Some additional content for the homepage of FabLab Munich

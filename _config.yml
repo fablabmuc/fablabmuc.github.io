@@ -1,9 +1,9 @@
 # Site settings
 title: FabLab München
 email: info@fablab-muenchen.de
-description: "FabLab München Homepage"
+description: "Data for FabLab München Homepage"
 baseurl: ""
-url: "http://www.fablab-muenchen.de"
+url: "http://data.fablab-muenchen.de"
 # Build settings
 markdown: kramdown
 highlighter: rouge
